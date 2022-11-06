@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DF1882B2910E09200F10ACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1882A2910E09200F10ACC /* AppDelegate.swift */; };
+		4DF1882D2910E09200F10ACC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1882C2910E09200F10ACC /* SceneDelegate.swift */; };
+		4DF188302910E09200F10ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1882E2910E09200F10ACC /* LaunchScreen.storyboard */; };
+		4DF188332910E09200F10ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF188312910E09200F10ACC /* Main.storyboard */; };
+		4DF1883C2910E09300F10ACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1883B2910E09300F10ACC /* AppDelegate.swift */; };
+		4DF1883F2910E09300F10ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1883D2910E09300F10ACC /* Main.storyboard */; };
+		4DF188472910E09300F10ACC /* Fast Offers Booster Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4DF188462910E09300F10ACC /* Fast Offers Booster Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4DF188512910E09300F10ACC /* Fast Offers Booster Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4DF188502910E09300F10ACC /* Fast Offers Booster Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4DF188572910E09300F10ACC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1881A2910E09000F10ACC /* Main.html */; };
+		4DF188582910E09300F10ACC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1881A2910E09000F10ACC /* Main.html */; };
+		4DF188592910E09300F10ACC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1881C2910E09000F10ACC /* Icon.png */; };
+		4DF1885A2910E09300F10ACC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1881C2910E09000F10ACC /* Icon.png */; };
+		4DF1885B2910E09300F10ACC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1881D2910E09000F10ACC /* Style.css */; };
+		4DF1885C2910E09300F10ACC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1881D2910E09000F10ACC /* Style.css */; };
+		4DF1885D2910E09300F10ACC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1881E2910E09000F10ACC /* Script.js */; };
+		4DF1885E2910E09300F10ACC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1881E2910E09000F10ACC /* Script.js */; };
+		4DF1885F2910E09300F10ACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1881F2910E09000F10ACC /* ViewController.swift */; };
+		4DF188602910E09300F10ACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1881F2910E09000F10ACC /* ViewController.swift */; };
+		4DF188612910E09300F10ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF188202910E09200F10ACC /* Assets.xcassets */; };
+		4DF188622910E09300F10ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF188202910E09200F10ACC /* Assets.xcassets */; };
+		4DF188632910E09300F10ACC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF188222910E09200F10ACC /* SafariWebExtensionHandler.swift */; };
+		4DF188642910E09300F10ACC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF188222910E09200F10ACC /* SafariWebExtensionHandler.swift */; };
+		4DF1887B2910E09300F10ACC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4DF188762910E09300F10ACC /* background.js */; };
+		4DF1887C2910E09300F10ACC /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 4DF188772910E09300F10ACC /* jquery.min.js */; };
+		4DF1887D2910E09300F10ACC /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 4DF188782910E09300F10ACC /* main.js */; };
+		4DF1887E2910E09300F10ACC /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 4DF188792910E09300F10ACC /* icons */; };
+		4DF1887F2910E09300F10ACC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1887A2910E09300F10ACC /* manifest.json */; };
+		4DF188802910E09300F10ACC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4DF188762910E09300F10ACC /* background.js */; };
+		4DF188812910E09300F10ACC /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 4DF188772910E09300F10ACC /* jquery.min.js */; };
+		4DF188822910E09300F10ACC /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 4DF188782910E09300F10ACC /* main.js */; };
+		4DF188832910E09300F10ACC /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 4DF188792910E09300F10ACC /* icons */; };
+		4DF188842910E09300F10ACC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1887A2910E09300F10ACC /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF188482910E09300F10ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF188142910E09000F10ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF188452910E09300F10ACC;
+			remoteInfo = "Fast Offers Booster Extension (iOS)";
+		};
+		4DF188522910E09300F10ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF188142910E09000F10ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF1884F2910E09300F10ACC;
+			remoteInfo = "Fast Offers Booster Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DF1886A2910E09300F10ACC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4DF188472910E09300F10ACC /* Fast Offers Booster Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF188712910E09300F10ACC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4DF188512910E09300F10ACC /* Fast Offers Booster Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DF1881B2910E09000F10ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		4DF1881C2910E09000F10ACC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4DF1881D2910E09000F10ACC /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		4DF1881E2910E09000F10ACC /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		4DF1881F2910E09000F10ACC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DF188202910E09200F10ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DF188222910E09200F10ACC /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		4DF188272910E09200F10ACC /* Fast Offers Booster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Offers Booster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF1882A2910E09200F10ACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DF1882C2910E09200F10ACC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DF1882F2910E09200F10ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DF188322910E09200F10ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DF188342910E09200F10ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF188392910E09300F10ACC /* Fast Offers Booster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Offers Booster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF1883B2910E09300F10ACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DF1883E2910E09300F10ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DF188402910E09300F10ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF188412910E09300F10ACC /* Fast Offers Booster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fast Offers Booster.entitlements"; sourceTree = "<group>"; };
+		4DF188462910E09300F10ACC /* Fast Offers Booster Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Fast Offers Booster Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF1884B2910E09300F10ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF188502910E09300F10ACC /* Fast Offers Booster Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Fast Offers Booster Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF188552910E09300F10ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF188562910E09300F10ACC /* Fast Offers Booster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fast Offers Booster.entitlements"; sourceTree = "<group>"; };
+		4DF188762910E09300F10ACC /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../Downloads/Fast-Offers-Booster/background.js"; sourceTree = "<group>"; };
+		4DF188772910E09300F10ACC /* jquery.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = "../../Downloads/Fast-Offers-Booster/jquery.min.js"; sourceTree = "<group>"; };
+		4DF188782910E09300F10ACC /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = main.js; path = "../../Downloads/Fast-Offers-Booster/main.js"; sourceTree = "<group>"; };
+		4DF188792910E09300F10ACC /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../Downloads/Fast-Offers-Booster/icons"; sourceTree = "<group>"; };
+		4DF1887A2910E09300F10ACC /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Downloads/Fast-Offers-Booster/manifest.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF188242910E09200F10ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF188362910E09300F10ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF188432910E09300F10ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF1884D2910E09300F10ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DF188132910E09000F10ACC = {
+			isa = PBXGroup;
+			children = (
+				4DF188182910E09000F10ACC /* Shared (App) */,
+				4DF188212910E09200F10ACC /* Shared (Extension) */,
+				4DF188292910E09200F10ACC /* iOS (App) */,
+				4DF1883A2910E09300F10ACC /* macOS (App) */,
+				4DF1884A2910E09300F10ACC /* iOS (Extension) */,
+				4DF188542910E09300F10ACC /* macOS (Extension) */,
+				4DF188282910E09200F10ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DF188182910E09000F10ACC /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1881F2910E09000F10ACC /* ViewController.swift */,
+				4DF188202910E09200F10ACC /* Assets.xcassets */,
+				4DF188192910E09000F10ACC /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		4DF188192910E09000F10ACC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1881A2910E09000F10ACC /* Main.html */,
+				4DF1881C2910E09000F10ACC /* Icon.png */,
+				4DF1881D2910E09000F10ACC /* Style.css */,
+				4DF1881E2910E09000F10ACC /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4DF188212910E09200F10ACC /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4DF188752910E09300F10ACC /* Resources */,
+				4DF188222910E09200F10ACC /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		4DF188282910E09200F10ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DF188272910E09200F10ACC /* Fast Offers Booster.app */,
+				4DF188392910E09300F10ACC /* Fast Offers Booster.app */,
+				4DF188462910E09300F10ACC /* Fast Offers Booster Extension.appex */,
+				4DF188502910E09300F10ACC /* Fast Offers Booster Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF188292910E09200F10ACC /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1882A2910E09200F10ACC /* AppDelegate.swift */,
+				4DF1882C2910E09200F10ACC /* SceneDelegate.swift */,
+				4DF1882E2910E09200F10ACC /* LaunchScreen.storyboard */,
+				4DF188312910E09200F10ACC /* Main.storyboard */,
+				4DF188342910E09200F10ACC /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		4DF1883A2910E09300F10ACC /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1883B2910E09300F10ACC /* AppDelegate.swift */,
+				4DF1883D2910E09300F10ACC /* Main.storyboard */,
+				4DF188402910E09300F10ACC /* Info.plist */,
+				4DF188412910E09300F10ACC /* Fast Offers Booster.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		4DF1884A2910E09300F10ACC /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1884B2910E09300F10ACC /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		4DF188542910E09300F10ACC /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4DF188552910E09300F10ACC /* Info.plist */,
+				4DF188562910E09300F10ACC /* Fast Offers Booster.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		4DF188752910E09300F10ACC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DF188762910E09300F10ACC /* background.js */,
+				4DF188772910E09300F10ACC /* jquery.min.js */,
+				4DF188782910E09300F10ACC /* main.js */,
+				4DF188792910E09300F10ACC /* icons */,
+				4DF1887A2910E09300F10ACC /* manifest.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DF188262910E09200F10ACC /* Fast Offers Booster (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF1886B2910E09300F10ACC /* Build configuration list for PBXNativeTarget "Fast Offers Booster (iOS)" */;
+			buildPhases = (
+				4DF188232910E09200F10ACC /* Sources */,
+				4DF188242910E09200F10ACC /* Frameworks */,
+				4DF188252910E09200F10ACC /* Resources */,
+				4DF1886A2910E09300F10ACC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF188492910E09300F10ACC /* PBXTargetDependency */,
+			);
+			name = "Fast Offers Booster (iOS)";
+			productName = "Fast Offers Booster (iOS)";
+			productReference = 4DF188272910E09200F10ACC /* Fast Offers Booster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF188382910E09300F10ACC /* Fast Offers Booster (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF188722910E09300F10ACC /* Build configuration list for PBXNativeTarget "Fast Offers Booster (macOS)" */;
+			buildPhases = (
+				4DF188352910E09300F10ACC /* Sources */,
+				4DF188362910E09300F10ACC /* Frameworks */,
+				4DF188372910E09300F10ACC /* Resources */,
+				4DF188712910E09300F10ACC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF188532910E09300F10ACC /* PBXTargetDependency */,
+			);
+			name = "Fast Offers Booster (macOS)";
+			productName = "Fast Offers Booster (macOS)";
+			productReference = 4DF188392910E09300F10ACC /* Fast Offers Booster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF188452910E09300F10ACC /* Fast Offers Booster Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF188672910E09300F10ACC /* Build configuration list for PBXNativeTarget "Fast Offers Booster Extension (iOS)" */;
+			buildPhases = (
+				4DF188422910E09300F10ACC /* Sources */,
+				4DF188432910E09300F10ACC /* Frameworks */,
+				4DF188442910E09300F10ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fast Offers Booster Extension (iOS)";
+			productName = "Fast Offers Booster Extension (iOS)";
+			productReference = 4DF188462910E09300F10ACC /* Fast Offers Booster Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4DF1884F2910E09300F10ACC /* Fast Offers Booster Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF1886E2910E09300F10ACC /* Build configuration list for PBXNativeTarget "Fast Offers Booster Extension (macOS)" */;
+			buildPhases = (
+				4DF1884C2910E09300F10ACC /* Sources */,
+				4DF1884D2910E09300F10ACC /* Frameworks */,
+				4DF1884E2910E09300F10ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fast Offers Booster Extension (macOS)";
+			productName = "Fast Offers Booster Extension (macOS)";
+			productReference = 4DF188502910E09300F10ACC /* Fast Offers Booster Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DF188142910E09000F10ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4DF188262910E09200F10ACC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					4DF188382910E09300F10ACC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					4DF188452910E09300F10ACC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					4DF1884F2910E09300F10ACC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4DF188172910E09000F10ACC /* Build configuration list for PBXProject "Fast Offers Booster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DF188132910E09000F10ACC;
+			productRefGroup = 4DF188282910E09200F10ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DF188262910E09200F10ACC /* Fast Offers Booster (iOS) */,
+				4DF188382910E09300F10ACC /* Fast Offers Booster (macOS) */,
+				4DF188452910E09300F10ACC /* Fast Offers Booster Extension (iOS) */,
+				4DF1884F2910E09300F10ACC /* Fast Offers Booster Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DF188252910E09200F10ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF188592910E09300F10ACC /* Icon.png in Resources */,
+				4DF188302910E09200F10ACC /* LaunchScreen.storyboard in Resources */,
+				4DF188572910E09300F10ACC /* Main.html in Resources */,
+				4DF1885D2910E09300F10ACC /* Script.js in Resources */,
+				4DF188612910E09300F10ACC /* Assets.xcassets in Resources */,
+				4DF188332910E09200F10ACC /* Main.storyboard in Resources */,
+				4DF1885B2910E09300F10ACC /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF188372910E09300F10ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF1885A2910E09300F10ACC /* Icon.png in Resources */,
+				4DF1885C2910E09300F10ACC /* Style.css in Resources */,
+				4DF1883F2910E09300F10ACC /* Main.storyboard in Resources */,
+				4DF1885E2910E09300F10ACC /* Script.js in Resources */,
+				4DF188622910E09300F10ACC /* Assets.xcassets in Resources */,
+				4DF188582910E09300F10ACC /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF188442910E09300F10ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF188822910E09300F10ACC /* main.js in Resources */,
+				4DF188832910E09300F10ACC /* icons in Resources */,
+				4DF188842910E09300F10ACC /* manifest.json in Resources */,
+				4DF188812910E09300F10ACC /* jquery.min.js in Resources */,
+				4DF188802910E09300F10ACC /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF1884E2910E09300F10ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF1887D2910E09300F10ACC /* main.js in Resources */,
+				4DF1887E2910E09300F10ACC /* icons in Resources */,
+				4DF1887F2910E09300F10ACC /* manifest.json in Resources */,
+				4DF1887C2910E09300F10ACC /* jquery.min.js in Resources */,
+				4DF1887B2910E09300F10ACC /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DF188232910E09200F10ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF1885F2910E09300F10ACC /* ViewController.swift in Sources */,
+				4DF1882B2910E09200F10ACC /* AppDelegate.swift in Sources */,
+				4DF1882D2910E09200F10ACC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF188352910E09300F10ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF188602910E09300F10ACC /* ViewController.swift in Sources */,
+				4DF1883C2910E09300F10ACC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF188422910E09300F10ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF188632910E09300F10ACC /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF1884C2910E09300F10ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF188642910E09300F10ACC /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF188492910E09300F10ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF188452910E09300F10ACC /* Fast Offers Booster Extension (iOS) */;
+			targetProxy = 4DF188482910E09300F10ACC /* PBXContainerItemProxy */;
+		};
+		4DF188532910E09300F10ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF1884F2910E09300F10ACC /* Fast Offers Booster Extension (macOS) */;
+			targetProxy = 4DF188522910E09300F10ACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DF1881A2910E09000F10ACC /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF1881B2910E09000F10ACC /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		4DF1882E2910E09200F10ACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF1882F2910E09200F10ACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4DF188312910E09200F10ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF188322910E09200F10ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DF1883D2910E09300F10ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF1883E2910E09300F10ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DF188652910E09300F10ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DF188662910E09300F10ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4DF188682910E09300F10ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBUM6FU786;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fast Offers Booster Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Fast-Offers-Booster.Extension";
+				PRODUCT_NAME = "Fast Offers Booster Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DF188692910E09300F10ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fast Offers Booster Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Fast-Offers-Booster.Extension";
+				PRODUCT_NAME = "Fast Offers Booster Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DF1886C2910E09300F10ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBUM6FU786;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fast Offers Booster";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Fast-Offers-Booster";
+				PRODUCT_NAME = "Fast Offers Booster";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DF1886D2910E09300F10ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fast Offers Booster";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Fast-Offers-Booster";
+				PRODUCT_NAME = "Fast Offers Booster";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DF1886F2910E09300F10ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Fast Offers Booster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fast Offers Booster Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Fast-Offers-Booster.Extension";
+				PRODUCT_NAME = "Fast Offers Booster Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4DF188702910E09300F10ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Fast Offers Booster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fast Offers Booster Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Fast-Offers-Booster.Extension";
+				PRODUCT_NAME = "Fast Offers Booster Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4DF188732910E09300F10ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Fast Offers Booster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fast Offers Booster";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Fast-Offers-Booster";
+				PRODUCT_NAME = "Fast Offers Booster";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4DF188742910E09300F10ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Fast Offers Booster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fast Offers Booster";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Fast-Offers-Booster";
+				PRODUCT_NAME = "Fast Offers Booster";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DF188172910E09000F10ACC /* Build configuration list for PBXProject "Fast Offers Booster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF188652910E09300F10ACC /* Debug */,
+				4DF188662910E09300F10ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF188672910E09300F10ACC /* Build configuration list for PBXNativeTarget "Fast Offers Booster Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF188682910E09300F10ACC /* Debug */,
+				4DF188692910E09300F10ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF1886B2910E09300F10ACC /* Build configuration list for PBXNativeTarget "Fast Offers Booster (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF1886C2910E09300F10ACC /* Debug */,
+				4DF1886D2910E09300F10ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF1886E2910E09300F10ACC /* Build configuration list for PBXNativeTarget "Fast Offers Booster Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF1886F2910E09300F10ACC /* Debug */,
+				4DF188702910E09300F10ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF188722910E09300F10ACC /* Build configuration list for PBXNativeTarget "Fast Offers Booster (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF188732910E09300F10ACC /* Debug */,
+				4DF188742910E09300F10ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DF188142910E09000F10ACC /* Project object */;
+}
